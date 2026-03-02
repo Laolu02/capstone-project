@@ -9,7 +9,7 @@ import { expect } from "chai";
 const confirmOpts: ConfirmOptions = {commitment: "confirmed"};
 
 describe("capstone-project", () => {
-  // Configure the client to use the local cluster.
+  
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
 
